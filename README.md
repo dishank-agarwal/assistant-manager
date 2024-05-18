@@ -70,3 +70,71 @@ The project uses the following dependencies:
   
 ![image](https://github.com/dishank-agarwal/assistant-manager/assets/121570212/e950f25b-cf28-42a2-b109-018d46c85eda)
 
+### Get Assistant by ID
+
+- **URL**: `/api/assistants/{id}`
+- **Method**: `GET`
+
+![image](https://github.com/dishank-agarwal/assistant-manager/assets/121570212/4304dbb7-2ce6-46e1-b648-fc0609d7bc9e)
+
+### Apply Salary Hike
+
+- **URL**: `/api/assistants/{id}/hike`
+- **Method**: `PUT`
+
+![image](https://github.com/dishank-agarwal/assistant-manager/assets/121570212/1e5eb295-6a12-417e-95ce-5c8c5ae44128)
+
+### Calculate In-Hand Salary
+
+- **URL**: `/api/assistants/{id}/inHandSalary`
+- **Method**: `PUT`
+
+![image](https://github.com/dishank-agarwal/assistant-manager/assets/121570212/28f8f8a4-1cfc-4e97-bd53-0d426df3da63)
+
+### Get All Assistants
+
+- **URL**: `/api/assistants`
+- **Method**: `GET`
+
+![image](https://github.com/dishank-agarwal/assistant-manager/assets/121570212/1fc99d3f-c998-49ca-bab0-4f5646326ea1)
+
+### Delete Assistants
+
+- **URL**: `/api/assistants/{id}`
+- **Method**: `Delete`
+
+![image](https://github.com/dishank-agarwal/assistant-manager/assets/121570212/998ee803-ba98-458d-b9a2-9b6e9627e53e)
+
+
+## Postman Collection
+
+A Postman collection is included in the repository to facilitate testing of the API endpoints.
+
+### Import the collection:
+
+1. Open Postman and click on **Import**.
+2. Select the `AssistantManager.postman_collection.json` file from the repository.
+3. The collection will appear in your Postman workspace.
+
+### Use the collection:
+
+The collection contains requests for all the API endpoints. You can test each endpoint by clicking on the request and hitting the **Send** button.
+
+## Demo Video
+
+A demo video showcasing the functionality of the backend application is available at https://drive.google.com/file/d/1P4pDPQvH7N9gl-TD7seJJS63-q8LxALV/view?usp=sharing. 🎥
+
+## Contributing
+
+If you wish to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
